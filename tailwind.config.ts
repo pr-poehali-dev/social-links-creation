@@ -25,12 +25,16 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					DEFAULT: '#8B4513',
+					foreground: '#FFFFFF'
 				},
 				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					DEFAULT: '#228B22',
+					foreground: '#FFFFFF'
+				},
+				tertiary: {
+					DEFAULT: '#F5F5DC',
+					foreground: '#2D2D2D'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -89,6 +93,10 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				'cormorant': ['Cormorant', 'serif'],
+				'sans': ['Open Sans', 'sans-serif']
 			}
 		}
 	},
